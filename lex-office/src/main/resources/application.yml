@@ -1,0 +1,15 @@
+
+spring:
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+  application:
+    name: lex-office-service
+server:
+  port: 8080
+  servlet:
+    context-path: /lex-office-service
